@@ -1,4 +1,4 @@
-# This plugin aims to improve navigation within the website by offering readers additional relevant content based on the current post’s category.
+### This plugin aims to improve navigation within the website by offering readers additional relevant content based on the current post’s category.
 
 ## Features
 - Analyzes the category of the current post and suggests related posts.
