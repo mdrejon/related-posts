@@ -1,0 +1,25 @@
+
+.wtdrp-related-posts img {
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 4px;
+  }
+  .wtdrp-related-posts ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-width: 400px; 
+  }
+  .wtdrp-related-posts ul li a {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    background: #ffd3d3;
+    padding: 10px;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+  } 
