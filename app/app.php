@@ -81,7 +81,7 @@ class WTDRP_APP {
                 // Display related posts if found
                 if ($related_posts->have_posts()) {
                     $content .= '<div class="wtdrp-related-posts">';
-                    $content .= '<h3>Related Posts</h3>';
+                    $content .= '<h3>'.esc_html(__('Related Posts', 'related-posts' )).'</h3>';
                     $content .= '<ul>';
                     while ($related_posts->have_posts()) {
                         $related_posts->the_post();
