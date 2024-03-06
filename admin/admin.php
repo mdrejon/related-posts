@@ -27,7 +27,7 @@ class WTDRP_ADMIN {
             __('WTDRP Related Posts Settings', 'related-posts'),
             __('WTDRP Related Posts', 'related-posts'),
             'manage_options',
-            'related_posts_settings',
+            'wtdrp_posts_settings',
             array($this, 'wtdrp_related_posts_settings_page'),
             'dashicons-admin-post',
             10
